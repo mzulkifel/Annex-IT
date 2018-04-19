@@ -1,0 +1,95 @@
+
+.virtualization-upper {
+    background: url("../../img/background-image.png");
+    width: 100%;
+    height: 264px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.virtualization-upper-heading {
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 80px;
+    text-transform: capitalize;
+}
+
+.middle-section-margin {
+    margin-top: 65px;
+    margin-bottom: 100px;
+}
+
+.virtualization-solution-heading {
+    font-size: 30px;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 500;
+}
+
+.mulaim-border {
+    padding-right: 0px;
+    padding-left: 0px;
+    -webkit-box-shadow: 0px 2px 14px 2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 2px 14px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 2px 14px 2px rgba(0, 0, 0, 0.1);
+}
+
+.virtualization-section {
+    background-color: rgb(255, 255, 255);
+    height: 550px;
+    display: flex;
+}
+
+.virtualization-section:hover {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.virtualization-section img {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    overflow: hidden;
+}
+
+.virtualization-section:hover img {
+    filter: blur(2px);
+    overflow: hidden;
+}
+
+.virtualization-section:hover .virtualization-section-heading {
+    color: rgb(61, 169, 218);
+}
+
+.virtualization-section-heading {
+    font-size: 22px;
+    color: rgb(51, 51, 51);
+    line-height: 1.636;
+    text-align: left;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.virtualization-section-text {
+    font-size: 14px;
+    color: rgb(145, 145, 145);
+    line-height: 2.571;
+    text-align: left;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.virtualization-upper-heading::after {
+    background-color: rgb(73, 132, 184);
+    width: 63px;
+    height: 4px;
+    content: '';
+}

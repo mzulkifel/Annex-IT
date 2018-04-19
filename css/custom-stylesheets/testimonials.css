@@ -1,0 +1,17 @@
+.carousel.testimonial4_indicators .item {
+    width: 100%;
+}
+
+.carousel.testimonial4_indicators .item .item-content {
+    width: 50%;
+    float: left;
+    display: inline-block;
+}
+
+.carousel.testimonial4_indicator .carousel-inner .active.left {
+    left: -50%;
+}
+
+.carousel.testimonial4_indicator .carousel-inner .next {
+    left: 50%;
+}

@@ -345,8 +345,9 @@ nav.navbar-default {
     font-size: 17px;
     color: rgb(255, 255, 255);
     line-height: 1.2;
-    text-align: left;
+    text-align: center;
     font-weight: 500;
+    min-width: 73px;
 }
 
 .navbar-default .navbar-nav > .active > a {
